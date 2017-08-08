@@ -98,7 +98,7 @@ In it's current form Science Flask implements a really simple scientific app.
  3. A series of checks are performed on the uploaded datasets:
     - all columns have to be numerical
     - each dataset must have a feature and sample number that is between a 
-    predefined (see config.py) minium and maximum
+    predefined (see config.py) minimum and maximum
      - if we have two datasets uploaded by the user, they need a minimum number
      of intersecting samples.
      - missing values are imputed with their column-wise median
@@ -204,13 +204,13 @@ See [__deployment.md__](https://github.com/danielhomola/science_flask/blob/maste
 ## What do you need to get started with web-app development?
 
 Science Flask - as the name suggests - is built on Flask which is a micro 
-web-framework written in PYthon. Don't panic. The actual sciency bit of your 
+web-framework written in Python. Don't panic. The actual sciency bit of your 
 project can be in any language it doesn't have to be Python.
 
 You'll need to be familiar with Flask and application development in Flask at
  least a bit, if you want to  use this template. The good news is though, you 
  really don't need to be a Flask ninja, and getting to sufficient level will 
- not take longer than an a weekend. 
+ not take longer than a weekend. 
 
 Have a look at [this mega tutorial](https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world),
  and make sure you read the first 5 chapters. You can pick up the rest as you 
@@ -277,7 +277,7 @@ Frontend holds all the website components (HTML, CSS, JS) and Flask app that
      - \_\_init.py\_\_: setup/initialization and configuration of the Flask app
      - analysis.py: main script that is called when the user submits a new job
      - config.py: all configuration info of the Flask app is stored here, make
-     sure to read it  and set everything up properly.
+     sure to read it and set everything up properly.
      - forms.py: upload, analysis and registration forms with their validators
      - models.py: database models/tables for users, studies, analyses
      - views.py: implements the main logic of the individual pages, such as 
@@ -327,4 +327,3 @@ When an analysis fails, the state of the run (intermediate files and parameters
 
 
 ## Cite Science Flask
-
