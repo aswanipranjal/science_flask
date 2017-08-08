@@ -62,7 +62,7 @@ users and easily build custom user management logic. For example you might
 decide that certain users  can only use a part of the application, while other
 users can access all features.
 - __SQL database__: All user, study and analysis data is stored in an
-SQLite by defaul. This can be changed to MySQL or Postgre SQL easily and
+SQLite by default. This can be changed to MySQL or Postgre SQL easily and
 the same code will work, thanks to `SQLAlchemy`. Thanks to Flask-Migrate if you
 change your app's model, you can easily upgrade your database even when your
 app is deployed.
